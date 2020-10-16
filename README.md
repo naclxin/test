@@ -4,7 +4,7 @@ This program is a .ipynb file and can be opened in the jupyter.
 
 In this program, the main tasks can be divided into 4 parts. 
 
-## The first part is for data pre-processing
+### The first part is for data pre-processing
 
 preprocess() function collects data from data sets and do the pre-pocess.
 
@@ -15,7 +15,7 @@ mergedata() function merges the processed text data into the original dataset.
 
 finaldata() function standarlizes the data and output the final processed data.
 
-## The second part is for data pre-processing
+### The second part is for data pre-processing
 
 MNB() function builds a Multinomial Naive Bayes based trainning modle 
 
@@ -23,10 +23,10 @@ KNN() function finds the optimal k value and builds a K-Nearest Neighbors based 
 
 DT() function builds a Decision Tree based trainning modle
 
-## The third part is for prediction 
+### The third part is for prediction 
 
 predict() function uses trained model to predict a class for the validation data
 
-## The fourth part is for evaluation 
+### The fourth part is for evaluation 
 
 evaluate() function evaluates model performance by accuracy
